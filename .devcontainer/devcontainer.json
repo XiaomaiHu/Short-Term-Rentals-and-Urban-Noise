@@ -1,0 +1,202 @@
+{
+    "image": "msh588/geo255:latest",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "inferrinizzard.prettier-sql-vscode",
+                "mathematic.vscode-pdf",
+                "ms-azuretools.vscode-docker",
+                "ms-python.autopep8",
+                "ms-python.python",
+                "ms-vscode.cpptools",
+                "ms-vscode.hexeditor",
+                "ms-vsliveshare.vsliveshare",
+                "redhat.java",
+                "vscjava.vscode-java-debug",
+                "vsls-contrib.gitdoc",
+                "ms-python.python",
+                "ms-toolsai.jupyter"
+            ],
+            "settings": {
+                "accessibility.signals.terminalBell": {
+                    "sound": "off"
+                },
+                "workbench.editorAssociations": {
+                    "*.ipynb": "jupyter-notebook",
+                     "*.wav": "vscode.audioPreview"
+                },
+                "breadcrumbs.enabled": false,
+                "C_Cpp.autocomplete": "disabled",
+                "C_Cpp.clang_format_fallbackStyle": "{ AllowShortFunctionsOnASingleLine: Empty, BraceWrapping: { AfterCaseLabel: true, AfterControlStatement: true, AfterFunction: true, AfterStruct: true, BeforeElse: true, BeforeWhile: true }, BreakBeforeBraces: Custom, ColumnLimit: 100, IndentCaseLabels: true, IndentWidth: 4, SpaceAfterCStyleCast: true, TabWidth: 4 }",
+                "C_Cpp.codeFolding": "disabled",
+                "C_Cpp.debugShortcut": false,
+                "C_Cpp.dimInactiveRegions": false,
+                "C_Cpp.doxygen.generateOnType": false,
+                "C_Cpp.enhancedColorization": "enabled",
+                "C_Cpp.errorSquiggles": "disabled",
+                "C_Cpp.formatting": "clangFormat",
+                "diffEditor.diffAlgorithm": "advanced",
+                "diffEditor.ignoreTrimWhitespace": false,
+                "editor.autoClosingQuotes": "always",
+                "editor.colorDecorators": false,
+                "editor.emptySelectionClipboard": false,
+                "editor.folding": false,
+                "editor.foldingHighlight": false,
+                "editor.formatOnSave": false,
+                "editor.guides.indentation": true,
+                "editor.hover.enabled": false,
+                "editor.lightbulb.enabled": "off",
+                "editor.matchBrackets": "never",
+                "editor.mouseWheelZoom": true,
+                "editor.minimap.enabled": false,
+                "editor.occurrencesHighlight": "off",
+                "editor.parameterHints.enabled": false,
+                "debug.javascript.codelens.npmScripts": "never",
+                "debug.showRunDebug": false,
+                "editor.quickSuggestions": {
+                    "other": "off",
+                    "comments": "off",
+                    "strings": "off"
+                },
+                "editor.renderWhitespace": "selection",
+                "editor.selectionHighlight": false,
+                "editor.semanticTokenColorCustomizations": {
+                    "[Default Dark+]": {
+                        "rules": {
+                            "type": "#FF7E76"
+                        }
+                    },
+                    "[Default Light+]": {
+                        "rules": {
+                            "type": "#D2343F"
+                        }
+                    }
+                },
+                "editor.stickyScroll.enabled": false,
+                "editor.suggestOnTriggerCharacters": false,
+                "extensions.ignoreRecommendations": true,
+                "explorer.autoOpenDroppedFile": false,
+                "explorer.compactFolders": false,
+                "extension-uninstaller.uninstall": [
+                    "Codeium.codeium",
+                    "Codeium.codeium-enterprise-updater",
+                    "github.copilot",
+                    "github.copilot-nightly",
+                    "ms-toolsai.vscode-jupyter-cell-tags",
+                    "tabnine.tabnine-vscode"
+                ],
+                "files.autoSave": "afterDelay",
+                "files.autoSaveDelay": 100,
+                "files.exclude": {
+                    "**/.*": true
+                },
+                "files.insertFinalNewline": true,
+                "files.trimTrailingWhitespace": true,
+                "files.watcherExclude": {
+                    "**/.git/objects/**": true,
+                    "**/.git/subtree-cache/**": true,
+                    "**/node_modules/*/**": true
+                },
+                "git.autofetch": true, 
+                "github.codespaces.devcontainerChangedNotificationStyle": "none",
+                "git.decorations.enabled": false,
+                "git.terminalAuthentication": true,
+                "github.gitAuthentication": true,
+                "gitdoc.autoPull": "off",
+                "gitdoc.enabled": true,
+                "gitdoc.commitMessageFormat": "ccc, LLL d, kkkk, h:mm a ZZ",
+                "gitdoc.commitValidationLevel": "none",
+                "gitdoc.pullOnOpen": false,
+                "html.autoCreateQuotes": false,
+                "html.format.indentInnerHtml": true,
+                "html.suggest.html5": false,
+                "java.server.launchMode": "Standard",
+                "java.configuration.runtimes": [
+                    {
+                        "name": "JavaSE-23",
+                        "path": "/opt/jdk",
+                        "default": true
+                    }
+                ],
+                "java.inlayHints.parameterNames.enabled": "none",
+                "java.debug.settings.enableRunDebugCodeLens": false,
+                "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+                "javascript.suggest.enabled": false,
+                "javascript.validate.enable": false, 
+                "Prettier-SQL.keywordCase": "upper",
+                "problems.decorations.enabled": false,
+                "problems.visibility": false,
+                "python.terminal.executeInFileDir": true,
+                "remote.autoForwardPorts": true,
+                "remote.autoForwardPortsFallback": 0,
+                "remote.autoForwardPortsSource": "process",
+                "remote.otherPortsAttributes": {
+                    "onAutoForward": "silent"
+                },
+                "scm.countBadge": "off",
+                "terminal.integrated.commandsToSkipShell": [
+                    "workbench.action.toggleSidebarVisibility"
+                ],
+                "terminal.integrated.enableVisualBell": true,
+                "terminal.integrated.defaultProfile.linux": "bash",
+                "terminal.integrated.splitCwd": "workspaceRoot",
+                "terminal.integrated.gpuAcceleration": "off",
+                "terminal.integrated.profiles.linux": {
+                    "JavaScript Debug Terminal": null
+                },
+                "terminal.integrated.persistentSessionReviveProcess": "never",
+                "terminal.integrated.sendKeybindingsToShell": true,
+                "terminal.integrated.shellIntegration.enabled": true,
+                "terminal.integrated.shellIntegration.decorationsEnabled": "never", 
+                "terminal.integrated.showExitAlert": false,
+                "terminal.integrated.tabs.description": "${task}${separator}${local}", 
+                "terminal.integrated.tabs.showActiveTerminal": "never",
+                "terminal.integrated.showTabs": true,
+                "window.autoDetectColorScheme": true,
+                "workbench.colorCustomizations": {
+                    "editor.lineHighlightBorder": "#0000", 
+                    "editorError.foreground": "#0000", 
+                    "editorWarning.foreground": "#0000", 
+                    "editorGutter.addedBackground": "#0000",
+                    "editorGutter.deletedBackground": "#0000",
+                    "editorGutter.modifiedBackground": "#0000", 
+                    "[Default Dark+]": {
+                        "activityBar.background": "#333",
+                        "editor.background": "#1E1E1E",
+                        "editor.lineHighlightBackground": "#2E2E2E",
+                        "terminal.foreground": "#CCCCCC",
+                        "terminal.background": "#1E1E1E"
+                    }
+                },
+                "window.commandCenter": false,
+                "workbench.editor.closeOnFileDelete": true,
+                "workbench.editor.enablePreview": false,
+                "workbench.iconTheme": "vs-minimal", 
+                "workbench.layoutControl.enabled": false,
+                "workbench.preferredDarkColorTheme": "Default Dark Modern",
+                "workbench.preferredLightColorTheme": "Default Light Modern",
+                "workbench.startupEditor": "none",
+                "workbench.statusBar.visible": false,
+                "workbench.tips.enabled": false,
+                "workbench.welcomePage.walkthroughs.openOnInstall": false
+            }
+        }
+    },
+    "forwardPorts": [
+        5000, 
+        5900, 
+        6081, 
+        8080, 
+        8082, 
+        8787,
+        8888  
+    ],
+    "mounts": [
+        {
+            "source": "/var/run/docker.sock",
+            "target": "/var/run/docker-host.sock", 
+            "type": "bind"
+        }
+    ],
+    "postStartCommand": "jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --allow-root & source /workspaces/cp255/.devcontainer/custom_prompt.sh; source /workspaces/cp255/.devcontainer/setup_environment.sh && code -r -g terminal:focus"
+}
