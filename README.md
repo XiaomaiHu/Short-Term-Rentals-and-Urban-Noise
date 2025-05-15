@@ -1,11 +1,9 @@
-# -Short-Term-Rentals-and-Urban-Noise
+# Short-Term-Rentals-and-Urban-Noise
 This project uses a dataset larger than GitHub's file limit.
 
 Here is the dataset for your reference:
 https://drive.google.com/file/d/1DiY-ktyvCX4cuMjA8wl5WvOSw7vU1zH_/view?usp=drive_link
 
-
-# Short-Term Rentals and Urban Noise
 
 
 
